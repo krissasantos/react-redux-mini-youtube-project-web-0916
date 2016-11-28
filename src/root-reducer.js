@@ -18,11 +18,8 @@ const rootReducer = combineReducers({reducer})
 export default rootReducer
 
 
-
-
-
 function takeVideos(videos_APIdata){
-  
+
   let main = videos_APIdata.items[0]
   let related = []
   // debugger

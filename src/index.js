@@ -10,7 +10,7 @@ import { fetchVideos } from './actions' ;
 // store.dispatch(fetchVideos(searchTerm))
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <App  />
   </Provider>,
   document.getElementById('root')
 );
